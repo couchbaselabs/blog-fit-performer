@@ -15,10 +15,11 @@
             DocValidator.assertDocDoesNotExist(collection, docId);
             assertEquals(TransactionException.EXCEPTION_EXPIRED, result.getException());
             }
-            Code Snippet from ExecuteWhen:
-            Note: “shared” is a Java Object which contains all the performer capabilities
 
-// Check if umberOfPerformersIsAbove = 1
+
+         //   Code Snippet from ExecuteWhen:
+           // Note: “shared” is a Java Object which contains all the performer capabilities
+// Check if numberOfPerformersIsAbove = 1
             if (found.numberOfPerformersIsAbove() != 0) {
             if (shared.numberOfPerformers() > found.numberOfPerformersIsAbove()) {
             return ConditionEvaluationResult.disabled("Test disabled because number of performers " +
